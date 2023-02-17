@@ -1,0 +1,23 @@
+<h1>Stupid Coaching</h1>
+<p>Ask your coach anything:</p>
+<div class="ui-container">
+  <form action="answer">
+    <div class="w-50">
+      <div class="input-group">
+        <input type="text" class="form-control rounded" name="question" value="<%= params[:question] %>" placeholder="What is your question?" aria-label="Search" aria-describedby="search-addon" />
+        <button type="submit" class="btn btn-outline-primary" value="Ask!">ask!</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+<!-- <form action="answer" data-turbo="false">
+  <input type="text" name="question" value="<%= params[:question] %>" placeholder="What is your question?">
+  <input type="submit" value="Ask!">
+</form> -->
